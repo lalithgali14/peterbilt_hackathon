@@ -11,14 +11,18 @@ Peterbilt offers a wide range of build specs (8 attributes, 315 possible option 
 Approach
 
 •Reliability scoring: Compared each option's overall score against its average claim cost to flag likely cost drivers  surfacing known problem areas like the 567 and 579 models.
+
 •Interaction analysis: Tested attribute pairs (e.g., Attribute 1 & 4, Attribute 2 & 5) and found specific combinations with notably higher predicted warranty costs than either attribute alone.
+
 •XGBoost model: Trained a classifier to predict claim risk from configuration attributes 84.4% accuracy, with strong precision/recall on identifying no-claim cases.
 
 
 Key Findings
 
 •567 and 579 configurations show recurring recall/claim patterns.
+
 •Certain attribute pairs compound warranty risk beyond individual attributes.
+
 •The model gives Peterbilt a practical way to flag risky configurations proactively, before they scale into costly recalls.
 
 
